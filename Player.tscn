@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3gy5ubq41ojq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tmprp"]
+
+[node name="CharacterBody2d" type="CharacterBody2D"]
+
+[node name="Camera2d" type="Camera2D" parent="."]
+current = true
+smoothing_enabled = true
+
+[node name="CollisionShape2d" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_tmprp")
